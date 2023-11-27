@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Sajilo Bazar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('background_image.jpg') center center/cover no-repeat fixed; /* Set your background image */
+            color: #fff; /* Set text color to white for better contrast */
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .welcome-container {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent black background to the container */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjusted box shadow for better visibility */
+        }
+
+        .enter-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1em;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="welcome-container">
+        <h1>Welcome to Sajilo Bazar</h1>
+        <p>Click "Enter" to explore our world of convenience and quality.</p>
+        <button onclick="enterSite()" class="enter-button">Enter</button>
+    </div>
+
+    <script>
+        function enterSite() {
+            window.location.href = "main_page.html"; // Replace with the actual filename of your main page
+        }
+    </script>
+</body>
+
+</html>
